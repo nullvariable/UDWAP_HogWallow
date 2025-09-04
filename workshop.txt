@@ -1,0 +1,14 @@
+version=1
+id=3551615883
+title=Hog Wallow Forrest Facility Power/Water
+description=Adds a config for Uncle Dave was a Prepper allowing this location to be fully powered, fully connected plumbing and optional loot, controlled by the Uncle Dave mod.
+description=
+description=Notes: This is an addon, you can make it your primary spawn (though if you use other addons you will need to load the one you wish to select last in your mod order). If you don't enable all maps in UDWAP you will get the selected map and this map as an addon, meaning both will be active.
+description=
+description=Be warned spawning at this location will be risky unless you turn the population way down.
+description=
+description=Extra loot for this location is limited compared to most of the bases in UDAWP, but your normal settings should leave you with quite a lot around the base.
+description=
+description=Good Luck!
+tags=Build 42;Building;Map;Military;QoL
+visibility=public

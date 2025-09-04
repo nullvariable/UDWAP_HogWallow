@@ -1,0 +1,6 @@
+Stash_EN = {
+    Stash_DWAP_HWFF_Seeds = "Gardening stuff here",
+    Stash_DWAP_HWFF_Main = "Left a full set of kit behind the counter here",
+    Stash_DWAP_HWFF_Elevator = "Main elevator just inside garage door",
+    Stash_DWAP_HWFF_Parking = "Main Parking",
+}

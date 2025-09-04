@@ -1,0 +1,81 @@
+VERSION = 1,
+
+option DWAP_HWFF.MakePrimary
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_MakePrimary,
+}
+
+option DWAP_HWFF.KeepZombies
+{
+	type = boolean,
+	default = true,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_KeepZombies,
+}
+
+option DWAP_HWFF.SpawnLocation
+{
+	type = enum,
+	numValues = 10,
+	default = 1,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_SpawnLocation,
+	valueTranslation = DWAP_HWFF_SpawnLocation_value,
+}
+
+option DWAP_HWFF.KeyAndMap
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_KeyAndMap,
+	valueTranslation = DWAP_HWFF_KeyAndMap_value,
+}
+
+option DWAP_HWFF.Flashlight
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_Flashlight,
+}
+
+option DWAP_HWFF.EssentialLoot
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_EssentialLoot,
+	valueTranslation = DWAP_HWFF_EssentialLoot_value,
+}
+
+option DWAP_HWFF.RegularLoot
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_RegularLoot,
+	valueTranslation = DWAP_HWFF_RegularLoot_value,
+}
+
+option DWAP_HWFF.ExtraLoot
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_HWFF_General,
+	translation = DWAP_HWFF_ExtraLoot,
+}
